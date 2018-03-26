@@ -16,6 +16,7 @@ spec:
      httpHeaders:
      - name: X-Custom-Header
        value: Awesome
-     initialDelaySeconds: 15
-     timeoutSeconds: 1
+    initialDelaySeconds: 15
+    timeoutSeconds: 1
  name: liveness
+
