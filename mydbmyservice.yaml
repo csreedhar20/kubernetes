@@ -4,7 +4,7 @@ metadata:
  name: myservice
 spec:
  ports:
- - protocol: tcp
+ - protocol: TCP 
    port: 80
    targetPort: 9376
 ---
@@ -14,6 +14,6 @@ metadata:
  name: mydb
 spec:
  ports:
- - protocol: tcp
+ - protocol: TCP 
    port: 80
    targetPort: 9377
